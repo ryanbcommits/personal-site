@@ -1,3 +1,71 @@
+/*
+Color Pallete:
+--davys-gray: #50514fff;
+--ash-gray: #cbd4c2ff;
+--snow: #fffcffff;
+--cerulean: #247ba0ff;
+--khaki: #c3b299ff;
+*/
+
+/*GLOBAL STYLES
+-------------------------------------*/
 body {
-    background: lightblue;
+    background: snow;
+}
+
+/* links */
+a {
+    color: #247ba0ff;
+
+}
+
+a:hover {
+    color: #50514fff;
+    text-decoration: none;
+}
+
+footer a {
+    color: #cbd4c2ff;
+}
+footer a:hover {
+    color: #fffcffff;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #247ba0ff;
+    color: #fffcffff;
+    text-decoration: none;
+}
+
+/* HOME
+-------------------------------------*/
+.home {
+    background: url(../images/bg-home-office-bookshelf.jpg) no-repeat;
+    background-size: cover;
+}
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME
+-------------------------------------*/
+
+/* Profile
+-------------------------------------*/
+
+/* Projects
+-------------------------------------*/
+
+/* Work Experience
+-------------------------------------*/
+
+/* Education
+-------------------------------------*/
+
+/* FOOTER
+-------------------------------------*/
+footer {
+    background: #222;
+    color: #cbd4c2ff;
 }
