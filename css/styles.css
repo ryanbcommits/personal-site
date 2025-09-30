@@ -9,6 +9,17 @@ Color Pallete:
 
 /*GLOBAL STYLES
 -------------------------------------*/
+
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background: snow;
 }
@@ -20,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: #50514fff;
+    color: #cbd4c2ff;
     text-decoration: none;
 }
 
@@ -66,6 +77,16 @@ footer a:hover {
 /* FOOTER
 -------------------------------------*/
 footer {
-    background: #222;
+    background: #50514fff;
     color: #cbd4c2ff;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block; /*This applies the list items like block elements*/ 
+}
+.socials img {
+    width: 32px;
 }
