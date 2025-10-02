@@ -7,7 +7,7 @@ Color Pallete:
 --khaki: #c3b299ff;
 */
 
-/*GLOBAL STYLES
+/*GLOBAL STYLES 
 -------------------------------------*/
 
 /* 
@@ -20,8 +20,13 @@ html {
   box-sizing: inherit;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: snow;
+    margin: 0;
 }
 
 /* links */
@@ -47,6 +52,13 @@ footer a:hover {
     background-color: #247ba0ff;
     color: #fffcffff;
     text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;;
+    
 }
 
 /* HOME
