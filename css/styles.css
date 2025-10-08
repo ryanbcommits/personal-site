@@ -73,6 +73,13 @@ footer a:hover {
 
 /* RESUME
 -------------------------------------*/
+.resume header::before {
+    background: url(../images/bg-home-office-bookshelf.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 250px;
+}
 
 /* Profile
 -------------------------------------*/
