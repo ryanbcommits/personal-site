@@ -80,9 +80,24 @@ footer a:hover {
     display: block;
     height: 250px;
 }
-
+.resume-section {
+    margin-bottom: 50px;
+}
+.resume-section h2 {
+    border-bottom: 2px dashed #cbd4c2ff;
+}
 /* Profile
 -------------------------------------*/
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+
+.project-item img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
 
 /* Projects
 -------------------------------------*/
