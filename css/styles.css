@@ -86,6 +86,12 @@ footer a:hover {
 .resume-section h2 {
     border-bottom: 2px dashed #cbd4c2ff;
 }
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
 /* Profile
 -------------------------------------*/
 .project-item {
