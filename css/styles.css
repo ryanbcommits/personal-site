@@ -129,6 +129,11 @@ footer a:hover {
     left: 5px;
     font-size: 1.5rem;
 }
+@media screen and (max-width: 1200px) {
+    .download-link {
+        position: absolute;
+    }
+}
 
 
 /* Projects
@@ -147,9 +152,24 @@ footer a:hover {
     .project-item img {
         float: left;
         margin-right: 20px;
+    }
 }
+@media screen and (min-width:650px) and (max-width:859px) {
+    .project-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .project-item img {
+        width: 100%;
+    }
 }
-
+@media  screen and (max-width:500px) {
+    .project-item img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
 
 /* Work Experience
 -------------------------------------*/
